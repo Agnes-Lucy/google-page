@@ -1,0 +1,188 @@
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.body{
+    background-color:white;
+    font-family: arial,sans-serif;
+}
+.google{
+    width:120px;
+}
+.section1{
+    display: flex;
+    align-items: center; 
+}
+.input{
+    margin-left: 2%;
+    width: 55%;
+    height: 44px;
+    border:1px solid rgb(239, 239, 243) ;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 3px rgb(220, 219, 219);
+}
+#inputsearch{
+    width:80%;
+    margin-left: 10px;
+    border: none;
+}
+#inputsearch:focus{
+    outline:none;
+}
+#search{
+    color: blue;
+    margin-right: 10px;
+}
+#imagesearch{
+    margin: 0 10px;
+}
+#mic{
+    margin: 0 10px;
+}
+.googlesettings{
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    width: 15%;
+
+}
+.signin{
+    height: 40px;
+    width: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    border: 0 blue;
+}
+#apps{
+    color: blue;
+}
+.subsection{
+    margin-left: 170px;
+    line-height: 1px;
+}
+.subsection1{
+    display: flex ;
+    margin-bottom: 0px;
+    align-items: center;
+    gap: 20px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+#tools{
+    margin-left: 20%;
+}
+.searchresult{
+    line-height: 1px;
+    font-size: 14px;
+    color: rgb(62, 61, 61);
+}
+.lionelmessi{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.buttonresult{
+    display: flex;
+    gap: 5%;
+}
+.button{
+    background-color:  rgb(169, 209, 240);
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    color: rgb(45, 112, 228);
+    font-weight: bold;
+}
+#news, #stats{
+    width: 80px;
+}
+#video{
+    width:90px;
+}
+#footballer{
+    padding-top: 12px;
+}
+#img1{
+    width:50px;
+    border-radius: 10%;
+}
+
+.section2{
+    display: flex;
+    gap: 4%;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.messiimages1{
+    display: flex;
+    height: 130px;
+    gap: 2px;
+}
+#image5{
+    border-top-left-radius: 10%;
+}
+.verticalline{
+    border-left: 1px solid grey;
+    margin-left:1px;
+}
+.line2{
+    border-left: 1px solid grey;
+    margin-left: 15px;
+}
+.crandmessi{
+    border-radius: 5%;
+}
+#messiandcr{
+    display:block;
+    width: 47%;
+}
+.messiandcrNews{
+    display: flex;
+}
+.newscontainer{
+    display: flex;
+    margin-left: 10px;
+}
+#crrecords{
+    display: block;
+    width: 70%;
+}
+#cr{
+    width: 100px;
+    height:100px;
+    border-radius: 5%;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#messiaward{
+    display: block;
+}
+.h3news{
+    line-height: 3px;
+}
+.messiarsenal{
+    display: flex;
+}
+#arsenalnews, #report {
+    display: block;
+}
+.arsenalpix{
+    border-radius: 5%;
+}
