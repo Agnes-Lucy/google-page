@@ -180,9 +180,120 @@
 .messiarsenal{
     display: flex;
 }
-#arsenalnews, #report {
+#arsenalnews, 
+#report,
+#eveningnews,
+#sportbiblenews{
     display: block;
 }
 .arsenalpix{
     border-radius: 5%;
+}
+.morenews{
+    background: #ddd;;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 400px;
+    top: 187%;
+}
+#hrsix{
+    position: relative;
+    margin-top: 50px;
+}
+.about{
+    margin-right: 50px;
+    width: 100%;
+    border: 1px sold black;
+    font-size: 13px;
+}
+.panel{
+    border: 1px solid rgb(149, 140, 140);;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedbackpanel{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profiles{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#youtube, #facebook,
+#cristiano, #neymar,
+#mbappe, #rocuzzo{
+    border-radius: 6px;
+}
+.stat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  th{
+   color: rgb(149, 140, 140);
+  }
+  .link1{
+    text-decoration: none;
+    color: black;
+}
+.link1:hover{
+    text-decoration: underline;
+    color: black;
+}
+.alsosearch{
+    display: flex;
+    gap: 6px;
+}
+.seemore{
+    background: #ddd;;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    display: block;
+}
+.summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hrfeedback{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.section3{
+    margin-left: 170px;
+    width:50%;
+}
+
+.wiki{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    font-size: 13px;
+}
+.messiforbe{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
