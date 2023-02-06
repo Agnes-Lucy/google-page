@@ -297,3 +297,45 @@ th, td {
     gap: 20px;
     align-items: center;
 }
+.video{
+    display: flex;
+    align-items: center;
+}
+.video1{
+    border-radius: 6px;
+}
+.videos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.videotag{
+    font-size: 13px;
+}
+.viewall{
+    background: #ddd;;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 400px;
+    top: 2260px;
+}
+.relatedsearches{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.relatedsearchoption{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.messihouse{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
